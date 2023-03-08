@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Exercício simples que demonstra a estrutura Loop (com recurso "continue") em PHP.</h3>
+
+<?php
+//Loop para printar nums ímpares com recurso "continue"
+    for ($i=1; $i<20; $i++) {
+        if ($i%2==0) {
+            continue;
+        }
+        echo $i . ' ';
+    }
+?>
+
+</body>
+</html>
