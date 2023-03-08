@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Exercício de uso prático de var_dump () para declaração/exposição de tipos de dados e valores.</h3>
+
+<?php  
+$x = '26';
+var_dump($x);
+
+echo "<br>";
+
+$x = 26;
+var_dump($x);
+
+echo "<br>";
+
+$x = 26.0;
+var_dump($x);
+
+echo "<br>";
+
+$x = true;
+var_dump($x);
+?>  
+
+</body>
+</html>
