@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h3> Esse é um exemplo sobre como a linguagem PHP armazena suas variáveis globais em array específico. </h3>
+  
+<?php
+$x = 6;
+$y = 20;
+
+function array_variable_global() {
+  echo "y dentro da função:  " . $GLOBALS['y'] . "<br>";
+  echo "x dentro da função:  " . $GLOBALS['x'] . "<br>";
+    
+    //Soma para modificação de variável após chamada da função.
+    
+    $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+} 
+
+array_variable_global();
+echo $y;
+?>
+
+</body>
+</html>
