@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Exercício desenvolvido para exploração de array em microcódigo em PHP.</h3>
+
+<?php
+    $people = array(
+        'online'=>array('Gabi', 'Troy'),
+        'offline'=>array('Vinicius', 'Thiago', 'Jack'),
+        'away'=>array('Tobias')
+);
+
+    echo $people['online'][1];
+    echo "<br />";
+    echo $people['away'][0];
+
+?>
+
+</body>
+</html>
