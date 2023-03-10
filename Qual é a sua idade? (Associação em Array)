@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3> Exercício desenvolvido para explorar a estrutura de associação em um array e estrutura de repetição com array de parâmetro. </h3>
+
+<?php
+    $people = array("Gabi"=>24, "Troy"=>23, "Idade" => 30);
+    
+    do {
+        echo $people['Gabi'] . " anos é menor do que " . $people['Idade'] . ". <br/>";
+        $people['Gabi']++;
+    } while($people['Gabi'] < $people['Idade']);
+?>
+
+</body>
+</html>
+
