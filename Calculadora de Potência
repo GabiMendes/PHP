@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3> Exercício desenvolvido para cálculo de potência em PHP. </h3>
+
+<?php
+    function multiplicacao_acumulativa($number, $power) {
+    	
+        $answer = 1;
+        
+        for($i=0; $i<$power; $i++)
+        {
+        $answer = $number * $answer;
+        }
+        echo $answer;
+    }
+    multiplicacao_acumulativa(2, 6);
+?>
+
+</body>
+</html>
