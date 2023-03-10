@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Exercício desenvolvido para uso da estrutura "switch".</h3>
+<h5>Voltado, também, para dar mensagens positivas de acordo com o dia :)</h5>
+
+<hr>
+
+<?php
+    $today = 'Qui';
+
+    switch ($today) {
+        case "Seg":
+            echo "Bora, é segunda!";
+            break;
+        case "Ter":
+            echo "Terça é um bom dia para ser feliz ;)";
+            break;
+        case "Quar":
+            echo "Yeba, meio da semana. Ainda há tanto para aproveitar!";
+            break;
+        case "Qui":
+            echo "Sinto cheirinho de final de semana, hoje é quinta!";
+            break;
+        case "Sex":
+             echo "Sextou? Sextou!";
+             break;
+        case "Sab":
+             echo "Dia de descanso. Merecidíssimo, pode curtir!";
+             break;
+        case "Dom":
+             echo "Amanhã é segunda, renove as energias!";
+             break;
+        default:
+             echo "Não entendi :(";
+    }
+?>
+
+</body>
+</html>
